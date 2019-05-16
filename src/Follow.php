@@ -43,6 +43,10 @@ class Follow
     const RELATION_UPVOTE = 'upvote';
 
     const RELATION_DOWNVOTE = 'downvote';
+    
+    const RELATION_BLOCK = 'block';
+    
+    const RELATION_HIDE = 'hide';
 
     const RELATION_TYPES = [
         'likes' => 'like',
@@ -60,6 +64,10 @@ class Follow
         'upvoters' => 'upvote',
         'downvotes' => 'downvote',
         'downvoters' => 'downvote',
+        'blocks' => 'block',
+        'blockers' => 'block',
+        'hides' => 'hide',
+        'hiders' => 'hide'
     ];
 
     /**
