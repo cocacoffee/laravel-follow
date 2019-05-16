@@ -20,7 +20,7 @@ use Overtrue\LaravelFollow\Follow;
 trait CanBeHidden
 {
     /**
-     * Check if user is hid by given user.
+     * Check if user is hidden by given user.
      *
      * @param int $user
      *
@@ -32,7 +32,7 @@ trait CanBeHidden
     }
 
     /**
-     * Return followers.
+     * Return hiders.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */

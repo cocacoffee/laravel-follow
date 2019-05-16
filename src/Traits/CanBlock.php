@@ -35,7 +35,7 @@ trait CanBlock
     }
 
     /**
-     * Unfollow an item or items.
+     * UnBlock an item or items.
      *
      * @param int|array|\Illuminate\Database\Eloquent\Model $targets
      * @param string                                        $class
@@ -48,7 +48,7 @@ trait CanBlock
     }
 
     /**
-     * Toggle follow an item or items.
+     * Toggle block an item or items.
      *
      * @param int|array|\Illuminate\Database\Eloquent\Model $targets
      * @param string                                        $class
@@ -63,7 +63,7 @@ trait CanBlock
     }
 
     /**
-     * Check if user is following given item.
+     * Check if user is blocking given item.
      *
      * @param int|array|\Illuminate\Database\Eloquent\Model $target
      * @param string                                        $class
@@ -76,7 +76,7 @@ trait CanBlock
     }
 
     /**
-     * Check if user and target user is following each other.
+     * Check if user and target user is blocking each other.
      *
      * @param int|array|\Illuminate\Database\Eloquent\Model $target
      * @param string                                        $class
@@ -89,7 +89,7 @@ trait CanBlock
     }
 
     /**
-     * Return item followings.
+     * Return item blockings.
      *
      * @param string $class
      *
