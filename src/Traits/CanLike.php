@@ -85,6 +85,6 @@ trait CanLike
     {
         return $this->morphedByMany($class, config('follow.morph_prefix'), config('follow.followable_table'))
                     ->wherePivot('relation', '=', Follow::RELATION_LIKE)
-                    ->withPivot('followable_type', 'relation', 'created_at');
+                    ->withPivot('followable_type', 'relation', 'type', 'created_at');
     }
 }
